@@ -23,8 +23,6 @@
 <script setup>
 import { ref } from "vue";
 import Logo from "../img/logo.svg";
-// import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
-// import { faSearch } from '@fortawesome/free-solid-svg-icons';
 
 const getNavBarItems = (isLoggedIn) => {
   if (isLoggedIn.charAt(0) === "C") {
@@ -65,8 +63,8 @@ const getNavBarItems = (isLoggedIn) => {
       title: "Strona główna",
     },
     {
-      name: "Favourites",
-      title: "Ulubione",
+      name: "Login",
+      title: "Zaloguj się",
     },
     {
       name: "SignUp",
@@ -74,7 +72,7 @@ const getNavBarItems = (isLoggedIn) => {
     },
   ];
 };
-const items = ref(getNavBarItems("S")); //TODO obsłużyć
+const items = ref(getNavBarItems("K")); //TODO obsłużyć
 </script>
 
 <style scoped>
@@ -85,6 +83,7 @@ const items = ref(getNavBarItems("S")); //TODO obsłużyć
   justify-content: space-between;
   padding: 70px 0px;
 }
+
 .login {
   grid-column: 1;
   display: grid;
