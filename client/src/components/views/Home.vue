@@ -13,13 +13,13 @@
           <!-- TODO Przycisk do logowania-->
         </div>
       </div>
-      <div class="home-dog-container">
+      <!-- <div class="home-dog-container">
         <img
           class="home-dog-image"
           src="../../img/background-index.png"
           alt=""
         />
-      </div>
+      </div> -->
     </div>
   </div>
 </template>
