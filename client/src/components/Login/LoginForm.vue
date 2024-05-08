@@ -29,7 +29,7 @@
             </button>
           </div>
           <div className='bottom-text'>
-            Nie posiadasz konta? <Link to='/signup'>Zarejestruj się</Link>
+            Nie posiadasz konta? <router-link to='/signup'> Zarejestruj się </router-link>
           </div>
         </div>
       </form>
