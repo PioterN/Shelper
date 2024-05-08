@@ -1,6 +1,7 @@
 <script setup>
 import NavBar from "../NavBar.vue";
 import Button from "../UI/Button.vue";
+import SearchButton from "../UI/SearchButton.vue";
 </script>
 
 <template>

@@ -1,7 +1,7 @@
 <template>
-     <Link to={{navigate}} className="button">
+     <router-link :to="navigate" className="button">
       {{text}}
-    </Link>
+    </router-link> 
 </template>
 
 <script setup>
